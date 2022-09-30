@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Montserrat:ital,wght@0,400;1,500&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Montserrat:ital,wght@0,400;1,500&family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700&display=swap');
+.sample{
+     font-family: 'Roboto Slab';;
+}
+body {
+    font-family: 'Roboto';
+}
+
+h1 {
+    position: absolute;
+    width: 365px;
+    height: 93px;
+    left: 124px;
+    top: 91px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+}
+
+.title {
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 124px;
+    top: 202px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.img1 {
+    z-index: 1;
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 944px;
+    top: 226px;
+
+}
+
+.img2 {
+    z-index: 1;
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 120px;
+    top: 670px;
+
+}
+
+.img3 {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 922px;
+    top: 511px;
+    background: #EFEFEF;
+    border-radius: 100%;
+}
+
+.img4 {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 153px;
+    top: 857px;
+    background: #EFEFEF;
+    border-radius: 100%;
+}
+
+.aaa {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 472px;
+    top: 740px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%
+}
+
+.bbb {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 709px;
+    top: 740px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.ccc {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 944px;
+    top: 740px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.aa1 {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 472px;
+    top: 780px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.aa2 {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 709px;
+    top: 780px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.aa3 {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 944px;
+    top: 780px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+@media (max-width:1297px){
+    .img1{
+        position: absolute;
+        margin-left: -150px;
+    }
+    .img3{
+        position: absolute;
+        margin-left: -150px;
+    }
+}
+@media (max-width:1135px){
+ .img2{
+    display: none;
+ }
+ .img4{
+    display: none;
+ }
+ .img1{
+    position: absolute;
+    margin-left: -650px;
+    margin-top: 500px;
+}
+.img3{
+    position: absolute;
+    margin-left: -650px;
+    margin-top: 500px;
+}
+div{
+    position: absolute;
+    margin-left: -320px;
+    margin-top: 500px;
+}
+}
+@media(max-width:807px){
+    .title{
+        width: 400px;
+    }
+    .img1{
+        position: absolute;
+        margin-left: -800px;
+        margin-top: 700px;
+    }
+    .img3{
+        position: absolute;
+        margin-left: -800px;
+        margin-top: 700px;
+    }
+    .ccc{
+        position: absolute;
+        margin-left: -470px;
+        margin-top: 150px;
+    }
+    .aa3{
+        position: absolute;
+        margin-left: -470px;
+        margin-top: 150px;
+    }
+}
